@@ -34,6 +34,8 @@ axios
     `https://www.arcgis.com/sharing/generateToken?f=json&username=${u}&password=${p}&referer=http://www.arcgis.com`
   )
   .then((response) => {
+    console.log("\n---------------- Token ----------------");
+    console.log(response.data.token);
     testGeo(response.data.token);
     testBase(response.data.token);
   })
