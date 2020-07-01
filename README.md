@@ -7,7 +7,6 @@ To run the app you must have [Node](https://nodejs.org/en/) installed. With Node
 
 ```
 npm install
-npm start
 ```
 
 Next, make sure to change the username and password in the ```config.json``` file which is used to create your token:
