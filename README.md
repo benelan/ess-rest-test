@@ -9,7 +9,7 @@ To run the app you must have [Node](https://nodejs.org/en/) installed. With Node
 npm install
 ```
 
-Next, make sure to change the username and password in the ```config.json``` file which is used to create your token:
+Next, make sure to add your ArcGIS Online credentials in the ```config.json``` file which is used to create the token:
 ```
 module.exports = function () {
 this.u = "USERNAME";
@@ -20,8 +20,11 @@ Then you can run the tests by typing:
 ```
 node run.js
 ```
-The results logged into the console should look something like:
+The results logged in the console should look something like:
 ```
+---------------- Token ----------------
+*...*
+
 ---------------- Basemap ----------------
 Esri duration: 96 ms
 Amazon duration: 249 ms
